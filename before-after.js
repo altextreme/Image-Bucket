@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
     // FUNCTION FOR DRAGGABLE ELEMENTS
-    $.fn.drags = function (dragElement, resizeElement, container) {
+    $.fn.drags = function drags(dragElement, resizeElement, container) {
         // Initialize the dragging event on mousedown.
         dragElement.on('mousedown touchstart', function(e){
         
