@@ -1,4 +1,4 @@
-// FUNCTION FOR DRAGGABLE ELEMENTS
+// FUNCTION FOR DRAGGABLE ELEMENTS 
 function drags(dragElement, resizeElement, container) {
     // Initialize the dragging event on mousedown.
     dragElement.on('mousedown touchstart', function(e){
