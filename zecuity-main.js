@@ -97,12 +97,14 @@ $(document).ready(function(){
             // =================================
             // PRELOAD IMAGES
             // =================================
-            function preload(urlBase, arrayOfImages) {
+            function preload(arrayOfImages) {
+                var urlBase = "https://cdn.rawgit.com/altextreme/Image-Bucket/master/";
+                
                 $(arrayOfImages).each(function(){
                     $('<img/>')[0].src = urlBase + this;
                 });
             }
-            preload('https://cdn.rawgit.com/altextreme/Image-Bucket/master/', [
+            preload([
                 'clock-red.png',
                 '4hr-delivery-full.png'
             ]);
