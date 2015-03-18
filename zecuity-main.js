@@ -97,14 +97,14 @@ $(document).ready(function(){
             // =================================
             // PRELOAD IMAGES
             // =================================
-            function preload(arrayOfImages) {
+            function preload(urlBase, arrayOfImages) {
                 $(arrayOfImages).each(function(){
-                    $('<img/>')[0].src = this;
+                    $('<img/>')[0].src = urlBase + this;
                 });
             }
-            preload([
-                'https://raw.githubusercontent.com/altextreme/Image-Bucket/master/clock-red.png',
-                'https://raw.githubusercontent.com/altextreme/Image-Bucket/master/4hr-delivery-full.png'
+            preload('https://cdn.rawgit.com/altextreme/Image-Bucket/master/', [
+                'clock-red.png',
+                '4hr-delivery-full.png'
             ]);
 
 
