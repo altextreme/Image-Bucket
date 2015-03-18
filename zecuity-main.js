@@ -103,8 +103,8 @@ $(document).ready(function(){
                 });
             }
             preload([
-                'https://bytebucket.org/altextreme/image-bucket/raw/5ea6c5aefba9cca090b4e85f296ca834ad215455/clock-red.png',
-                'https://bytebucket.org/altextreme/image-bucket/raw/6975879ba6b7be06b3a1f17bcd77552554f34af3/4hr-delivery-full.png'
+                'https://raw.githubusercontent.com/altextreme/Image-Bucket/master/clock-red.png',
+                'https://raw.githubusercontent.com/altextreme/Image-Bucket/master/4hr-delivery-full.png'
             ]);
 
 
