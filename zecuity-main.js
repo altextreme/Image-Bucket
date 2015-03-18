@@ -101,12 +101,12 @@ $(document).ready(function(){
                 $(arrayOfImages).each(function(){
                     $('<img/>')[0].src = this;
                 });
-                console.log("preloading");
             }
             preload([
                 'https://cdn.rawgit.com/altextreme/Image-Bucket/master/clock-red.png',
                 'https://cdn.rawgit.com/altextreme/Image-Bucket/master/4hr-delivery-full.png'
             ]);
+            console.log("preloading");
 
 
             // =================================
