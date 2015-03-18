@@ -98,15 +98,13 @@ $(document).ready(function(){
             // PRELOAD IMAGES
             // =================================
             function preload(arrayOfImages) {
-                var urlBase = "https://cdn.rawgit.com/altextreme/Image-Bucket/master/";
-                
                 $(arrayOfImages).each(function(){
-                    $('<img/>')[0].src = urlBase + this;
+                    $('<img/>')[0].src = this;
                 });
             }
             preload([
-                'clock-red.png',
-                '4hr-delivery-full.png'
+                'https://cdn.rawgit.com/altextreme/Image-Bucket/master/clock-red.png',
+                'https://cdn.rawgit.com/altextreme/Image-Bucket/master/4hr-delivery-full.png'
             ]);
 
 
